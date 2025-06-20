@@ -1,0 +1,9 @@
+[package]
+name = "tradingeconomics"
+version = "0.1.0"
+edition = "2021"
+authors = ["Trading Economics"]
+description = "Trading Economics Rust Client"
+
+[dependencies]
+comtrade = { path = "Comtrade" } 

@@ -1,0 +1,7 @@
+[build]
+
+[target.wasm32-unknown-unknown]
+rustflags = ["--cfg", "web_sys_unstable_apis"]
+
+[env]
+CARGO_TARGET_WASM32_UNKNOWN_UNKNOWN_RUSTFLAGS = "--cfg getrandom_js" 
